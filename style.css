@@ -10,10 +10,22 @@ h2{
 }
 p{
     columns: dimgray;
+    font-size: medium;
 }
 
+.for-image{
+    width: 80%;
+    padding-top: 10px ;
+    padding-bottom: 50px;
+}
+
+
+
+
+
 .orange-highlight{
-    color: coral;
+    color: rgb(243, 66, 234);
+
 }
 .half-width{
     width: 40%;
@@ -25,18 +37,23 @@ p{
     width: 100%;
 }
 .top-banner{
-  
-    background-image: url("images/top-banner.png");
+
+     padding-top: 200px;
+     padding-left: 60px;
+     text-align: justify;
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
 }
 .dream-big{
-    background-image: url("images/dream-bg.png");
+    padding-top: 1000px;
+     padding-right:  300px;
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .experience-area{
-    background-image: url("images/exp-bg.png");
+    background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
